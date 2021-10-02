@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap');
+
 :root {
-    --primary-color: #f61009;
-    --dark-gray: #6b7280;
+    --primary-color: rgb(0, 0, 143);
+    --secondary-color: #0156ff;
 }
 
 body{
     margin: 0;
+    font-family: 'Stick No Bills', sans-serif;
+    background-image: url(/img/triangle.jpeg);
+    background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.9)),url(/img/triangle.jpeg);
+    background-size: cover;
+    background-position: center ;
+    position: relative;
 }
 
 /* navbar */
 .navigation {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     color: black;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -58,6 +66,8 @@ body{
     max-width: 50%;
     text-align: center;
     margin: auto;
+    color: white;
+    font-size: large;
 }
 
 input{
@@ -65,8 +75,10 @@ input{
     margin: 1rem;
 }
 
+
 #submit-answer-btn{
     padding: 1rem;
+    color: black;
 }
 
 #hypotenuse-btn{
@@ -107,8 +119,6 @@ input{
 /* footers */
 
 .footer {
-    background-color: var(--primary-color);
-    padding: 2rem 0rem;
     text-align: center;
     color: white;
     border-radius: 0.5rem;
@@ -117,9 +127,10 @@ input{
     width: 100%;
 }
 
+
 .footer-header {
     font-size: large;
-    font-weight: bold;
+    
 }
 
 .footer .link {
