@@ -5,13 +5,14 @@
     --secondary-color: #0156ff;
 }
 
-
+body, html {
+    height: 100%;
+  }
 
 body{
     margin: 0;
     font-family: 'Stick No Bills', sans-serif;
-    background-image: url(/img/triangle.jpeg);
-    background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.9)),url(/img/triangle.jpeg);
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.9)),url(/img/triangles.jpg);
     background-size: cover;
     background-position: center ;
     position: relative;
@@ -154,10 +155,6 @@ input{
     color: #495057;
 }
 
-.fa-twitter:link,
-.fa-twitter:hover {
-    color: #1da1f2
-}
 
 .fa-linkedin-in:link,
 .fa-linkedin-in:hover {
