@@ -123,10 +123,11 @@ input{
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 0rem;
+    padding: 2rem 1rem;
     text-align: center;
     color: white;
-    /* border-radius: 0.5rem; */
+    height: 4rem;
+    margin-bottom:auto ;
     position: fixed;
     bottom: 0;
     width: 100%;
