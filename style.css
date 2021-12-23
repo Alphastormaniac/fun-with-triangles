@@ -120,19 +120,21 @@ input{
 
 /* footers */
 
+
 .footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
     text-align: center;
     color: white;
-    border-radius: 0.5rem;
+    /* border-radius: 0.5rem; */
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
-
 .footer-header {
     font-size: large;
-    
+    font-weight: bold;
 }
 
 .footer .link {
@@ -143,17 +145,15 @@ input{
     padding-inline-start: 0px;
 }
 
-.bout-me {
-    padding: 2rem;
-    margin: auto;
-    max-width: auto;
-}
-
 .fa-github:link,
 .fa-github:hover {
     color: #495057;
 }
 
+.fa-twitter:link,
+.fa-twitter:hover {
+    color: #1da1f2
+}
 
 .fa-linkedin-in:link,
 .fa-linkedin-in:hover {
@@ -176,10 +176,10 @@ input{
     padding-top: 1rem;
 }
 
+/****FAB ICONS*****/
 
-.snap-code {
-    height: 200px;
-    width: 200px;
-    align-self: center;
-    padding: 3rem;
+.fab-icons{
+    padding-right: 1rem;
+    color: var(--primary-color);
 }
+
