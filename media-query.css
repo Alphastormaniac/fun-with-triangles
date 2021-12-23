@@ -1,0 +1,51 @@
+/* @media only screen and (max-width:1200px){
+   
+}
+
+@media only screen and (max-width:1023px){
+   
+   
+}
+
+@media only screen and (max-width:767px){
+   
+} */
+
+
+@media only screen and (max-width:479px) {
+
+
+    .navigation {
+        display: block;
+        max-width: 100%;
+    }
+
+    .nav-pills {
+        display: flex;
+        font-size: 1.2rem;
+        padding-left: 1rem;
+        text-align: center;
+    }
+
+    .section {
+        max-width: 900px;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .social-links {
+        display: inline-block;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .footer-icons {
+        font-size: 1.5rem;
+        margin-block-end: none;
+    }
+
+    .foot-li {
+        padding: 0 2px;
+        text-align: center;
+    }
+}
