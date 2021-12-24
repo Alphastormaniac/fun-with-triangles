@@ -7,6 +7,7 @@
 
 body, html {
     height: 100%;
+    margin: 0;
   }
 
 body{
@@ -22,8 +23,10 @@ body{
 .navigation {
     color: black;
     padding: 1rem;
+    padding-left: 0;
     border-radius: 0.5rem;
-    position: fixed;
+    /* position: fixed; */
+    margin: 0;
     top: 0;
     width: 100%;
 }
@@ -40,7 +43,9 @@ body{
 .nav-pills {
     text-align: center;
     font-size: 1.5rem;
+    display: inline-block;
 }
+
 
 .navigation .link {
     color: white;
@@ -49,6 +54,7 @@ body{
 
 .link-active {
     font-weight: bold;
+    font-size: 1rem;
 }
 
 #triangleBtn{
@@ -62,7 +68,7 @@ body{
 .container {
     padding: 1rem;
     position: relative;
-    top: 10rem;
+    top: 1rem;
     display: flex;
     flex-direction: column;
     max-width: 50%;
@@ -106,7 +112,6 @@ input{
 
 .list-item-inline {
     display: inline-flex;
-    padding: 0rem 1rem;
 }
 
 .link {

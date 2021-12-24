@@ -16,15 +16,20 @@
 
 
     .navigation {
-        display: block;
-        max-width: 100%;
+        display: inline-flexbox;
+        /* max-width: 100%; */
     }
 
     .nav-pills {
         display: flex;
         font-size: 1.2rem;
-        padding-left: 1rem;
+        padding: 1rem;
         text-align: center;
+
+    }
+
+    .container{
+        padding-top: 1rem;
     }
 
 
