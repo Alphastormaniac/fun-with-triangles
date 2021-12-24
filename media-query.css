@@ -27,32 +27,4 @@
         text-align: center;
     }
 
-    .section {
-        max-width: 900px;
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
 
-    .social-links {
-        display: inline-block;
-        text-align: center;
-        padding-top: 1rem;
-    }
-
-    .footer-icons {
-        font-size: 1.5rem;
-        margin-block-end: none;
-    }
-
-    .foot-li {
-        padding: 0 2px;
-        text-align: center;
-    }
-
-    .footer{
-        display: inline-flexbox;
-    }
-
-    .footer-header{
-        align-content: ;
-    }
