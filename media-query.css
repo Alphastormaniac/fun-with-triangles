@@ -17,7 +17,7 @@
 
     .navigation {
         display: inline-flexbox;
-        /* max-width: 100%; */
+        max-width: 100%;
     }
 
     .nav-pills {
