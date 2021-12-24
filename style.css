@@ -123,19 +123,20 @@ input{
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
     text-align: center;
     color: white;
-    height: 4rem;
-    margin-bottom:auto ;
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 4rem;
+    display: flex;
 }
 
 .footer-header {
     font-size: large;
     font-weight: bold;
+    
 }
 
 .footer .link {
